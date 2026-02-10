@@ -24,7 +24,8 @@ install git and docker
         sudo apt install git docker.io  -y
         sudo systemctl start docker
         sudo systemctl status  docker
-  
+        sudo chmod 777 /var/run/docker.sock
+
 
 
 
