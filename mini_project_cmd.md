@@ -33,4 +33,11 @@ install trivy
 
     sudo  tar zxvf trivy_0.18.3_Linux-64bit.tar.gz
     sudo mv trivy /usr/local/bin/
+    trivy --version
+
+Run SonarQube using Docker
+
+    docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+    docker stop sonar
+    docker start sonar
 
