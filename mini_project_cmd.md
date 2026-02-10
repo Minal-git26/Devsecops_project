@@ -18,3 +18,14 @@ jenkins & java install
     
     sudo systemctl restart jenkins
     sudo systemctl status  jenkins
+
+install git and docker 
+
+        sudo apt install git docker.io  -y
+        sudo systemctl start docker
+        sudo systemctl status  docker
+  
+
+
+
+
