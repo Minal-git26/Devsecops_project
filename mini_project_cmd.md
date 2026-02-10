@@ -41,3 +41,10 @@ Run SonarQube using Docker
     docker stop sonar
     docker start sonar
 
+Jenkins Plugins Used
+    SonarQube Scanner
+    NodeJS
+    OWASP Dependency-Check
+    Eclipse Temurin Installer
+    Docker Pipeline
+
